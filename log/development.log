@@ -1,0 +1,1258 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-09 18:09:44) [GET]
+
+ActionController::RoutingError (No route matches "/products" with {:method=>:get}):
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:76:in `pre_process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:74:in `catch'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:74:in `pre_process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:57:in `process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:42:in `receive_data'
+  C:/Ruby/lib/ruby/gems/1.8/gems/eventmachine-0.12.10-x86-mswin32-60/lib/eventmachine.rb:256:in `run_machine'
+  C:/Ruby/lib/ruby/gems/1.8/gems/eventmachine-0.12.10-x86-mswin32-60/lib/eventmachine.rb:256:in `run'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/backends/base.rb:57:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/server.rb:156:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/controllers/controller.rb:80:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:177:in `send'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:177:in `run_command'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:143:in `run!'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/bin/thin:6
+  C:/Ruby/bin/thin:19:in `load'
+  C:/Ruby/bin/thin:19
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-07-09 18:10:03) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSQLite3::SQLException: no such table: users: SELECT * FROM "users" [0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: users: SELECT * FROM "users" ):
+  app/controllers/users_controller.rb:5:in `index'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:76:in `pre_process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:74:in `catch'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:74:in `pre_process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:57:in `process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:42:in `receive_data'
+  C:/Ruby/lib/ruby/gems/1.8/gems/eventmachine-0.12.10-x86-mswin32-60/lib/eventmachine.rb:256:in `run_machine'
+  C:/Ruby/lib/ruby/gems/1.8/gems/eventmachine-0.12.10-x86-mswin32-60/lib/eventmachine.rb:256:in `run'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/backends/base.rb:57:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/server.rb:156:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/controllers/controller.rb:80:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:177:in `send'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:177:in `run_command'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:143:in `run!'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/bin/thin:6
+  C:/Ruby/bin/thin:19:in `load'
+  C:/Ruby/bin/thin:19
+
+Rendered rescues/_trace (313.0ms)
+Rendered rescues/_request_and_response (15.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-07-09 18:10:50) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSQLite3::SQLException: no such table: users: SELECT * FROM "users" [0m
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: users: SELECT * FROM "users" ):
+  app/controllers/users_controller.rb:5:in `index'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:76:in `pre_process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:74:in `catch'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:74:in `pre_process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:57:in `process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:42:in `receive_data'
+  C:/Ruby/lib/ruby/gems/1.8/gems/eventmachine-0.12.10-x86-mswin32-60/lib/eventmachine.rb:256:in `run_machine'
+  C:/Ruby/lib/ruby/gems/1.8/gems/eventmachine-0.12.10-x86-mswin32-60/lib/eventmachine.rb:256:in `run'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/backends/base.rb:57:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/server.rb:156:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/controllers/controller.rb:80:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:177:in `send'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:177:in `run_command'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:143:in `run!'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/bin/thin:6
+  C:/Ruby/bin/thin:19:in `load'
+  C:/Ruby/bin/thin:19
+
+Rendered rescues/_trace (328.0ms)
+Rendered rescues/_request_and_response (16.0ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (78.0ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (109.0ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateUsers (20100709091923)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100709091923')[0m
+Migrating to AddAvatarToUser (20100709094827)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mALTER TABLE "users" ADD "avatar" varchar(255)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100709094827')[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("users")[0m
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-07-09 18:12:17) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 2531ms (View: 1875, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-09 18:12:20) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:76:in `pre_process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:74:in `catch'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:74:in `pre_process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:57:in `process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:42:in `receive_data'
+  C:/Ruby/lib/ruby/gems/1.8/gems/eventmachine-0.12.10-x86-mswin32-60/lib/eventmachine.rb:256:in `run_machine'
+  C:/Ruby/lib/ruby/gems/1.8/gems/eventmachine-0.12.10-x86-mswin32-60/lib/eventmachine.rb:256:in `run'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/backends/base.rb:57:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/server.rb:156:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/controllers/controller.rb:80:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:177:in `send'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:177:in `run_command'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:143:in `run!'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/bin/thin:6
+  C:/Ruby/bin/thin:19:in `load'
+  C:/Ruby/bin/thin:19
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-07-09 18:12:22) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (31.0ms)
+Completed in 187ms (View: 93, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-09 18:12:23) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/application.css" with {:method=>:get}):
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:76:in `pre_process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:74:in `catch'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:74:in `pre_process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:57:in `process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:42:in `receive_data'
+  C:/Ruby/lib/ruby/gems/1.8/gems/eventmachine-0.12.10-x86-mswin32-60/lib/eventmachine.rb:256:in `run_machine'
+  C:/Ruby/lib/ruby/gems/1.8/gems/eventmachine-0.12.10-x86-mswin32-60/lib/eventmachine.rb:256:in `run'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/backends/base.rb:57:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/server.rb:156:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/controllers/controller.rb:80:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:177:in `send'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:177:in `run_command'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:143:in `run!'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/bin/thin:6
+  C:/Ruby/bin/thin:19:in `load'
+  C:/Ruby/bin/thin:19
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-07-09 18:13:26) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (16.0ms)
+Completed in 79ms (View: 32, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-07-09 18:13:45) [POST]
+  Parameters: {"user"=>{"remote_avatar_url"=>"", "avatar"=>#<File:C:/DOCUME~1/YANGXI~1/LOCALS~1/Temp/RackMultipart.2108.0>, "avatar_cache"=>"", "email"=>"yangxiwenhuai@gmail.com"}, "commit"=>"Submit", "authenticity_token"=>"mvouJUKtBlNZXRhEuudX3FBJRy3yQZzqHV8pgXzw94k="}
+
+NoMethodError (undefined method `scale' for #<#<Class:0x4bc7380>:0x4b99624>):
+  carrierwave (0.4.5) lib/carrierwave/uploader/processing.rb:76:in `send'
+  carrierwave (0.4.5) lib/carrierwave/uploader/processing.rb:76:in `process!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/processing.rb:75:in `each'
+  carrierwave (0.4.5) lib/carrierwave/uploader/processing.rb:75:in `process!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `send'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `with_callbacks'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `each'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `with_callbacks'
+  carrierwave (0.4.5) lib/carrierwave/uploader/cache.rb:92:in `cache!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/versions.rb:124:in `cache_versions!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/versions.rb:122:in `each'
+  carrierwave (0.4.5) lib/carrierwave/uploader/versions.rb:122:in `cache_versions!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `send'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `with_callbacks'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `each'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `with_callbacks'
+  carrierwave (0.4.5) lib/carrierwave/uploader/cache.rb:92:in `cache!'
+  carrierwave (0.4.5) lib/carrierwave/mount.rb:293:in `cache'
+  carrierwave (0.4.5) lib/carrierwave/mount.rb:172:in `avatar='
+  carrierwave (0.4.5) lib/carrierwave/mount.rb:157:in `avatar='
+  app/controllers/users_controller.rb:43:in `new'
+  app/controllers/users_controller.rb:43:in `create'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:76:in `pre_process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:74:in `catch'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:74:in `pre_process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:57:in `process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:42:in `receive_data'
+  C:/Ruby/lib/ruby/gems/1.8/gems/eventmachine-0.12.10-x86-mswin32-60/lib/eventmachine.rb:256:in `run_machine'
+  C:/Ruby/lib/ruby/gems/1.8/gems/eventmachine-0.12.10-x86-mswin32-60/lib/eventmachine.rb:256:in `run'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/backends/base.rb:57:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/server.rb:156:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/controllers/controller.rb:80:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:177:in `send'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:177:in `run_command'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:143:in `run!'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/bin/thin:6
+  C:/Ruby/bin/thin:19:in `load'
+  C:/Ruby/bin/thin:19
+
+Rendered rescues/_trace (171.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-07-09 18:15:35) [POST]
+  Parameters: {"user"=>{"remote_avatar_url"=>"", "avatar"=>#<File:C:/DOCUME~1/YANGXI~1/LOCALS~1/Temp/RackMultipart.2400.0>, "avatar_cache"=>"", "email"=>"yangxiwenhuai@gmail.com"}, "commit"=>"Submit", "authenticity_token"=>"mvouJUKtBlNZXRhEuudX3FBJRy3yQZzqHV8pgXzw94k="}
+
+NoMethodError (undefined method `scale' for #<#<Class:0x4a7de0c>:0x4a5e854>):
+  carrierwave (0.4.5) lib/carrierwave/uploader/processing.rb:76:in `send'
+  carrierwave (0.4.5) lib/carrierwave/uploader/processing.rb:76:in `process!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/processing.rb:75:in `each'
+  carrierwave (0.4.5) lib/carrierwave/uploader/processing.rb:75:in `process!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `send'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `with_callbacks'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `each'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `with_callbacks'
+  carrierwave (0.4.5) lib/carrierwave/uploader/cache.rb:92:in `cache!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/versions.rb:124:in `cache_versions!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/versions.rb:122:in `each'
+  carrierwave (0.4.5) lib/carrierwave/uploader/versions.rb:122:in `cache_versions!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `send'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `with_callbacks'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `each'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `with_callbacks'
+  carrierwave (0.4.5) lib/carrierwave/uploader/cache.rb:92:in `cache!'
+  carrierwave (0.4.5) lib/carrierwave/mount.rb:293:in `cache'
+  carrierwave (0.4.5) lib/carrierwave/mount.rb:172:in `avatar='
+  carrierwave (0.4.5) lib/carrierwave/mount.rb:157:in `avatar='
+  app/controllers/users_controller.rb:43:in `new'
+  app/controllers/users_controller.rb:43:in `create'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:76:in `pre_process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:74:in `catch'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:74:in `pre_process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:57:in `process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:42:in `receive_data'
+  C:/Ruby/lib/ruby/gems/1.8/gems/eventmachine-0.12.10-x86-mswin32-60/lib/eventmachine.rb:256:in `run_machine'
+  C:/Ruby/lib/ruby/gems/1.8/gems/eventmachine-0.12.10-x86-mswin32-60/lib/eventmachine.rb:256:in `run'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/backends/base.rb:57:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/server.rb:156:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/controllers/controller.rb:80:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:177:in `send'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:177:in `run_command'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:143:in `run!'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/bin/thin:6
+  C:/Ruby/bin/thin:19:in `load'
+  C:/Ruby/bin/thin:19
+
+Rendered rescues/_trace (312.0ms)
+Rendered rescues/_request_and_response (16.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-07-09 18:15:40) [POST]
+  Parameters: {"user"=>{"remote_avatar_url"=>"", "avatar"=>#<File:C:/DOCUME~1/YANGXI~1/LOCALS~1/Temp/RackMultipart.2400.1>, "avatar_cache"=>"", "email"=>"yangxiwenhuai@gmail.com"}, "commit"=>"Submit", "authenticity_token"=>"mvouJUKtBlNZXRhEuudX3FBJRy3yQZzqHV8pgXzw94k="}
+
+NoMethodError (undefined method `scale' for #<#<Class:0x49403dc>:0x4c0a4a0>):
+  carrierwave (0.4.5) lib/carrierwave/uploader/processing.rb:76:in `send'
+  carrierwave (0.4.5) lib/carrierwave/uploader/processing.rb:76:in `process!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/processing.rb:75:in `each'
+  carrierwave (0.4.5) lib/carrierwave/uploader/processing.rb:75:in `process!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `send'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `with_callbacks'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `each'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `with_callbacks'
+  carrierwave (0.4.5) lib/carrierwave/uploader/cache.rb:92:in `cache!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/versions.rb:124:in `cache_versions!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/versions.rb:122:in `each'
+  carrierwave (0.4.5) lib/carrierwave/uploader/versions.rb:122:in `cache_versions!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `send'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `with_callbacks'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `each'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `with_callbacks'
+  carrierwave (0.4.5) lib/carrierwave/uploader/cache.rb:92:in `cache!'
+  carrierwave (0.4.5) lib/carrierwave/mount.rb:293:in `cache'
+  carrierwave (0.4.5) lib/carrierwave/mount.rb:172:in `avatar='
+  carrierwave (0.4.5) lib/carrierwave/mount.rb:157:in `avatar='
+  app/controllers/users_controller.rb:43:in `new'
+  app/controllers/users_controller.rb:43:in `create'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:76:in `pre_process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:74:in `catch'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:74:in `pre_process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:57:in `process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:42:in `receive_data'
+  C:/Ruby/lib/ruby/gems/1.8/gems/eventmachine-0.12.10-x86-mswin32-60/lib/eventmachine.rb:256:in `run_machine'
+  C:/Ruby/lib/ruby/gems/1.8/gems/eventmachine-0.12.10-x86-mswin32-60/lib/eventmachine.rb:256:in `run'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/backends/base.rb:57:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/server.rb:156:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/controllers/controller.rb:80:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:177:in `send'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:177:in `run_command'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:143:in `run!'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/bin/thin:6
+  C:/Ruby/bin/thin:19:in `load'
+  C:/Ruby/bin/thin:19
+
+Rendered rescues/_trace (172.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-07-09 18:17:29) [POST]
+  Parameters: {"user"=>{"remote_avatar_url"=>"", "avatar"=>#<File:C:/DOCUME~1/YANGXI~1/LOCALS~1/Temp/RackMultipart.2400.2>, "avatar_cache"=>"", "email"=>"yangxiwenhuai@gmail.com"}, "commit"=>"Submit", "authenticity_token"=>"mvouJUKtBlNZXRhEuudX3FBJRy3yQZzqHV8pgXzw94k="}
+
+NoMethodError (undefined method `scale' for #<#<Class:0x4a8b868>:0x4a6ea4c>):
+  carrierwave (0.4.5) lib/carrierwave/uploader/processing.rb:76:in `send'
+  carrierwave (0.4.5) lib/carrierwave/uploader/processing.rb:76:in `process!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/processing.rb:75:in `each'
+  carrierwave (0.4.5) lib/carrierwave/uploader/processing.rb:75:in `process!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `send'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `with_callbacks'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `each'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `with_callbacks'
+  carrierwave (0.4.5) lib/carrierwave/uploader/cache.rb:92:in `cache!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/versions.rb:124:in `cache_versions!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/versions.rb:122:in `each'
+  carrierwave (0.4.5) lib/carrierwave/uploader/versions.rb:122:in `cache_versions!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `send'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `with_callbacks'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `each'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `with_callbacks'
+  carrierwave (0.4.5) lib/carrierwave/uploader/cache.rb:92:in `cache!'
+  carrierwave (0.4.5) lib/carrierwave/mount.rb:293:in `cache'
+  carrierwave (0.4.5) lib/carrierwave/mount.rb:172:in `avatar='
+  carrierwave (0.4.5) lib/carrierwave/mount.rb:157:in `avatar='
+  app/controllers/users_controller.rb:43:in `new'
+  app/controllers/users_controller.rb:43:in `create'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:76:in `pre_process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:74:in `catch'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:74:in `pre_process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:57:in `process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:42:in `receive_data'
+  C:/Ruby/lib/ruby/gems/1.8/gems/eventmachine-0.12.10-x86-mswin32-60/lib/eventmachine.rb:256:in `run_machine'
+  C:/Ruby/lib/ruby/gems/1.8/gems/eventmachine-0.12.10-x86-mswin32-60/lib/eventmachine.rb:256:in `run'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/backends/base.rb:57:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/server.rb:156:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/controllers/controller.rb:80:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:177:in `send'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:177:in `run_command'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:143:in `run!'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/bin/thin:6
+  C:/Ruby/bin/thin:19:in `load'
+  C:/Ruby/bin/thin:19
+
+Rendered rescues/_trace (328.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-07-09 18:19:14) [POST]
+  Parameters: {"user"=>{"remote_avatar_url"=>"", "avatar"=>#<File:C:/DOCUME~1/YANGXI~1/LOCALS~1/Temp/RackMultipart.2400.3>, "avatar_cache"=>"", "email"=>"yangxiwenhuai@gmail.com"}, "commit"=>"Submit", "authenticity_token"=>"mvouJUKtBlNZXRhEuudX3FBJRy3yQZzqHV8pgXzw94k="}
+
+NoMethodError (undefined method `scale' for #<#<Class:0x4bf13ec>:0x4bd5d04>):
+  carrierwave (0.4.5) lib/carrierwave/uploader/processing.rb:76:in `send'
+  carrierwave (0.4.5) lib/carrierwave/uploader/processing.rb:76:in `process!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/processing.rb:75:in `each'
+  carrierwave (0.4.5) lib/carrierwave/uploader/processing.rb:75:in `process!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `send'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `with_callbacks'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `each'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `with_callbacks'
+  carrierwave (0.4.5) lib/carrierwave/uploader/cache.rb:92:in `cache!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/versions.rb:124:in `cache_versions!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/versions.rb:122:in `each'
+  carrierwave (0.4.5) lib/carrierwave/uploader/versions.rb:122:in `cache_versions!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `send'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `with_callbacks'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `each'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `with_callbacks'
+  carrierwave (0.4.5) lib/carrierwave/uploader/cache.rb:92:in `cache!'
+  carrierwave (0.4.5) lib/carrierwave/mount.rb:293:in `cache'
+  carrierwave (0.4.5) lib/carrierwave/mount.rb:172:in `avatar='
+  carrierwave (0.4.5) lib/carrierwave/mount.rb:157:in `avatar='
+  app/controllers/users_controller.rb:43:in `new'
+  app/controllers/users_controller.rb:43:in `create'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:76:in `pre_process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:74:in `catch'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:74:in `pre_process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:57:in `process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:42:in `receive_data'
+  C:/Ruby/lib/ruby/gems/1.8/gems/eventmachine-0.12.10-x86-mswin32-60/lib/eventmachine.rb:256:in `run_machine'
+  C:/Ruby/lib/ruby/gems/1.8/gems/eventmachine-0.12.10-x86-mswin32-60/lib/eventmachine.rb:256:in `run'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/backends/base.rb:57:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/server.rb:156:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/controllers/controller.rb:80:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:177:in `send'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:177:in `run_command'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:143:in `run!'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/bin/thin:6
+  C:/Ruby/bin/thin:19:in `load'
+  C:/Ruby/bin/thin:19
+
+Rendered rescues/_trace (187.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-07-09 18:19:23) [POST]
+  Parameters: {"user"=>{"remote_avatar_url"=>"", "avatar"=>#<File:C:/DOCUME~1/YANGXI~1/LOCALS~1/Temp/RackMultipart.2400.1>, "avatar_cache"=>"", "email"=>"yangxiwenhuai@gmail.com"}, "commit"=>"Submit", "authenticity_token"=>"mvouJUKtBlNZXRhEuudX3FBJRy3yQZzqHV8pgXzw94k="}
+
+NoMethodError (undefined method `scale' for #<#<Class:0x4a5374c>:0x4a3d514>):
+  carrierwave (0.4.5) lib/carrierwave/uploader/processing.rb:76:in `send'
+  carrierwave (0.4.5) lib/carrierwave/uploader/processing.rb:76:in `process!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/processing.rb:75:in `each'
+  carrierwave (0.4.5) lib/carrierwave/uploader/processing.rb:75:in `process!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `send'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `with_callbacks'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `each'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `with_callbacks'
+  carrierwave (0.4.5) lib/carrierwave/uploader/cache.rb:92:in `cache!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/versions.rb:124:in `cache_versions!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/versions.rb:122:in `each'
+  carrierwave (0.4.5) lib/carrierwave/uploader/versions.rb:122:in `cache_versions!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `send'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `with_callbacks'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `each'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `with_callbacks'
+  carrierwave (0.4.5) lib/carrierwave/uploader/cache.rb:92:in `cache!'
+  carrierwave (0.4.5) lib/carrierwave/mount.rb:293:in `cache'
+  carrierwave (0.4.5) lib/carrierwave/mount.rb:172:in `avatar='
+  carrierwave (0.4.5) lib/carrierwave/mount.rb:157:in `avatar='
+  app/controllers/users_controller.rb:43:in `new'
+  app/controllers/users_controller.rb:43:in `create'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:76:in `pre_process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:74:in `catch'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:74:in `pre_process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:57:in `process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:42:in `receive_data'
+  C:/Ruby/lib/ruby/gems/1.8/gems/eventmachine-0.12.10-x86-mswin32-60/lib/eventmachine.rb:256:in `run_machine'
+  C:/Ruby/lib/ruby/gems/1.8/gems/eventmachine-0.12.10-x86-mswin32-60/lib/eventmachine.rb:256:in `run'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/backends/base.rb:57:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/server.rb:156:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/controllers/controller.rb:80:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:177:in `send'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:177:in `run_command'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:143:in `run!'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/bin/thin:6
+  C:/Ruby/bin/thin:19:in `load'
+  C:/Ruby/bin/thin:19
+
+Rendered rescues/_trace (375.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-07-09 18:19:33) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 344ms (View: 141, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-07-09 18:19:34) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (31.0ms)
+Completed in 125ms (View: 62, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-07-09 18:19:54) [POST]
+  Parameters: {"user"=>{"remote_avatar_url"=>"http://www.douban.com/photos/photo/540394203/", "avatar_cache"=>"", "email"=>"wangzongliang@glorisun.com"}, "commit"=>"Submit", "authenticity_token"=>"mvouJUKtBlNZXRhEuudX3FBJRy3yQZzqHV8pgXzw94k="}
+
+CarrierWave::IntegrityError (You are not allowed to upload "" files, allowed types: ["jpg", "jpeg", "gif", "png"]):
+  carrierwave (0.4.5) lib/carrierwave/uploader/extension_whitelist.rb:31:in `check_whitelist!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:12:in `send'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:12:in `with_callbacks'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:12:in `each'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:12:in `with_callbacks'
+  carrierwave (0.4.5) lib/carrierwave/uploader/cache.rb:92:in `cache!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/download.rb:52:in `download!'
+  carrierwave (0.4.5) lib/carrierwave/mount.rb:316:in `remote_url='
+  carrierwave (0.4.5) lib/carrierwave/mount.rb:196:in `remote_avatar_url='
+  app/controllers/users_controller.rb:43:in `new'
+  app/controllers/users_controller.rb:43:in `create'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:76:in `pre_process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:74:in `catch'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:74:in `pre_process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:57:in `process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:42:in `receive_data'
+  C:/Ruby/lib/ruby/gems/1.8/gems/eventmachine-0.12.10-x86-mswin32-60/lib/eventmachine.rb:256:in `run_machine'
+  C:/Ruby/lib/ruby/gems/1.8/gems/eventmachine-0.12.10-x86-mswin32-60/lib/eventmachine.rb:256:in `run'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/backends/base.rb:57:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/server.rb:156:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/controllers/controller.rb:80:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:177:in `send'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:177:in `run_command'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:143:in `run!'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/bin/thin:6
+  C:/Ruby/bin/thin:19:in `load'
+  C:/Ruby/bin/thin:19
+
+Rendered rescues/_trace (391.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-07-09 18:20:35) [POST]
+  Parameters: {"user"=>{"remote_avatar_url"=>"c:/a-bu.jpg", "avatar_cache"=>"", "email"=>"wangzongliang@glorisun.com"}, "commit"=>"Submit", "authenticity_token"=>"mvouJUKtBlNZXRhEuudX3FBJRy3yQZzqHV8pgXzw94k="}
+
+CarrierWave::DownloadError (trying to download a file which is not served over HTTP):
+  carrierwave (0.4.5) lib/carrierwave/uploader/download.rb:51:in `download!'
+  carrierwave (0.4.5) lib/carrierwave/mount.rb:316:in `remote_url='
+  carrierwave (0.4.5) lib/carrierwave/mount.rb:196:in `remote_avatar_url='
+  app/controllers/users_controller.rb:43:in `new'
+  app/controllers/users_controller.rb:43:in `create'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:76:in `pre_process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:74:in `catch'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:74:in `pre_process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:57:in `process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:42:in `receive_data'
+  C:/Ruby/lib/ruby/gems/1.8/gems/eventmachine-0.12.10-x86-mswin32-60/lib/eventmachine.rb:256:in `run_machine'
+  C:/Ruby/lib/ruby/gems/1.8/gems/eventmachine-0.12.10-x86-mswin32-60/lib/eventmachine.rb:256:in `run'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/backends/base.rb:57:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/server.rb:156:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/controllers/controller.rb:80:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:177:in `send'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:177:in `run_command'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:143:in `run!'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/bin/thin:6
+  C:/Ruby/bin/thin:19:in `load'
+  C:/Ruby/bin/thin:19
+
+Rendered rescues/_trace (344.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-07-09 18:21:28) [POST]
+  Parameters: {"user"=>{"remote_avatar_url"=>"c:\\a-bu.jpg", "avatar_cache"=>"", "email"=>"wangzongliang@glorisun.com"}, "commit"=>"Submit", "authenticity_token"=>"mvouJUKtBlNZXRhEuudX3FBJRy3yQZzqHV8pgXzw94k="}
+
+URI::InvalidURIError (bad URI(is not URI?): c:\a-bu.jpg):
+  C:/Ruby/lib/ruby/1.8/uri/common.rb:436:in `split'
+  C:/Ruby/lib/ruby/1.8/uri/common.rb:485:in `parse'
+  carrierwave (0.4.5) lib/carrierwave/uploader/download.rb:15:in `initialize'
+  carrierwave (0.4.5) lib/carrierwave/uploader/download.rb:50:in `new'
+  carrierwave (0.4.5) lib/carrierwave/uploader/download.rb:50:in `download!'
+  carrierwave (0.4.5) lib/carrierwave/mount.rb:316:in `remote_url='
+  carrierwave (0.4.5) lib/carrierwave/mount.rb:196:in `remote_avatar_url='
+  app/controllers/users_controller.rb:43:in `new'
+  app/controllers/users_controller.rb:43:in `create'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:76:in `pre_process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:74:in `catch'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:74:in `pre_process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:57:in `process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:42:in `receive_data'
+  C:/Ruby/lib/ruby/gems/1.8/gems/eventmachine-0.12.10-x86-mswin32-60/lib/eventmachine.rb:256:in `run_machine'
+  C:/Ruby/lib/ruby/gems/1.8/gems/eventmachine-0.12.10-x86-mswin32-60/lib/eventmachine.rb:256:in `run'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/backends/base.rb:57:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/server.rb:156:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/controllers/controller.rb:80:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:177:in `send'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:177:in `run_command'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:143:in `run!'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/bin/thin:6
+  C:/Ruby/bin/thin:19:in `load'
+  C:/Ruby/bin/thin:19
+
+Rendered rescues/_trace (156.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-07-09 18:23:04) [POST]
+  Parameters: {"user"=>{"remote_avatar_url"=>"http://www.wretch.cc/blog/loverain116/22841045", "avatar_cache"=>"", "email"=>"wangzongliang@glorisun.com"}, "commit"=>"Submit", "authenticity_token"=>"mvouJUKtBlNZXRhEuudX3FBJRy3yQZzqHV8pgXzw94k="}
+
+EOFError (end of file reached):
+  C:/Ruby/lib/ruby/1.8/net/protocol.rb:133:in `sysread'
+  C:/Ruby/lib/ruby/1.8/net/protocol.rb:133:in `rbuf_fill'
+  C:/Ruby/lib/ruby/1.8/timeout.rb:62:in `timeout'
+  C:/Ruby/lib/ruby/1.8/timeout.rb:93:in `timeout'
+  C:/Ruby/lib/ruby/1.8/net/protocol.rb:132:in `rbuf_fill'
+  C:/Ruby/lib/ruby/1.8/net/protocol.rb:116:in `readuntil'
+  C:/Ruby/lib/ruby/1.8/net/protocol.rb:126:in `readline'
+  C:/Ruby/lib/ruby/1.8/net/http.rb:2020:in `read_status_line'
+  C:/Ruby/lib/ruby/1.8/net/http.rb:2009:in `read_new'
+  C:/Ruby/lib/ruby/1.8/net/http.rb:1050:in `request'
+  C:/Ruby/lib/ruby/1.8/net/http.rb:948:in `request_get'
+  C:/Ruby/lib/ruby/1.8/net/http.rb:380:in `get_response'
+  C:/Ruby/lib/ruby/1.8/net/http.rb:543:in `start'
+  C:/Ruby/lib/ruby/1.8/net/http.rb:379:in `get_response'
+  carrierwave (0.4.5) lib/carrierwave/uploader/download.rb:33:in `file'
+  carrierwave (0.4.5) lib/carrierwave/uploader/download.rb:23:in `respond_to?'
+  carrierwave (0.4.5) lib/carrierwave/sanitized_file.rb:85:in `size'
+  carrierwave (0.4.5) lib/carrierwave/sanitized_file.rb:126:in `empty?'
+  carrierwave (0.4.5) lib/carrierwave/uploader/cache.rb:91:in `cache!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/download.rb:52:in `download!'
+  carrierwave (0.4.5) lib/carrierwave/mount.rb:316:in `remote_url='
+  carrierwave (0.4.5) lib/carrierwave/mount.rb:196:in `remote_avatar_url='
+  app/controllers/users_controller.rb:43:in `new'
+  app/controllers/users_controller.rb:43:in `create'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:76:in `pre_process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:74:in `catch'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:74:in `pre_process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:57:in `process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:42:in `receive_data'
+  C:/Ruby/lib/ruby/gems/1.8/gems/eventmachine-0.12.10-x86-mswin32-60/lib/eventmachine.rb:256:in `run_machine'
+  C:/Ruby/lib/ruby/gems/1.8/gems/eventmachine-0.12.10-x86-mswin32-60/lib/eventmachine.rb:256:in `run'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/backends/base.rb:57:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/server.rb:156:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/controllers/controller.rb:80:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:177:in `send'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:177:in `run_command'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:143:in `run!'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/bin/thin:6
+  C:/Ruby/bin/thin:19:in `load'
+  C:/Ruby/bin/thin:19
+
+Rendered rescues/_trace (438.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-07-09 18:23:20) [POST]
+  Parameters: {"user"=>{"remote_avatar_url"=>"", "avatar"=>#<File:C:/DOCUME~1/YANGXI~1/LOCALS~1/Temp/RackMultipart.2400.3>, "avatar_cache"=>"", "email"=>"wangzongliang@glorisun.com"}, "commit"=>"Submit", "authenticity_token"=>"mvouJUKtBlNZXRhEuudX3FBJRy3yQZzqHV8pgXzw94k="}
+
+NoMethodError (undefined method `scale' for #<#<Class:0x4bd9cc4>:0x4ba4ce0>):
+  carrierwave (0.4.5) lib/carrierwave/uploader/processing.rb:76:in `send'
+  carrierwave (0.4.5) lib/carrierwave/uploader/processing.rb:76:in `process!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/processing.rb:75:in `each'
+  carrierwave (0.4.5) lib/carrierwave/uploader/processing.rb:75:in `process!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `send'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `with_callbacks'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `each'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `with_callbacks'
+  carrierwave (0.4.5) lib/carrierwave/uploader/cache.rb:92:in `cache!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/versions.rb:124:in `cache_versions!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/versions.rb:122:in `each'
+  carrierwave (0.4.5) lib/carrierwave/uploader/versions.rb:122:in `cache_versions!'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `send'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `with_callbacks'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `each'
+  carrierwave (0.4.5) lib/carrierwave/uploader/callbacks.rb:14:in `with_callbacks'
+  carrierwave (0.4.5) lib/carrierwave/uploader/cache.rb:92:in `cache!'
+  carrierwave (0.4.5) lib/carrierwave/mount.rb:293:in `cache'
+  carrierwave (0.4.5) lib/carrierwave/mount.rb:172:in `avatar='
+  carrierwave (0.4.5) lib/carrierwave/mount.rb:157:in `avatar='
+  app/controllers/users_controller.rb:43:in `new'
+  app/controllers/users_controller.rb:43:in `create'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:76:in `pre_process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:74:in `catch'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:74:in `pre_process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:57:in `process'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:42:in `receive_data'
+  C:/Ruby/lib/ruby/gems/1.8/gems/eventmachine-0.12.10-x86-mswin32-60/lib/eventmachine.rb:256:in `run_machine'
+  C:/Ruby/lib/ruby/gems/1.8/gems/eventmachine-0.12.10-x86-mswin32-60/lib/eventmachine.rb:256:in `run'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/backends/base.rb:57:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/server.rb:156:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/controllers/controller.rb:80:in `start'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:177:in `send'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:177:in `run_command'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:143:in `run!'
+  C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/bin/thin:6
+  C:/Ruby/bin/thin:19:in `load'
+  C:/Ruby/bin/thin:19
+
+Rendered rescues/_trace (188.0ms)
+Rendered rescues/_request_and_response (0.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-07-09 18:26:23) [POST]
+  Parameters: {"user"=>{"remote_avatar_url"=>"", "avatar"=>#<File:C:/DOCUME~1/YANGXI~1/LOCALS~1/Temp/RackMultipart.2400.0>, "avatar_cache"=>"", "email"=>"wangzongliang@glorisun.com"}, "commit"=>"Submit", "authenticity_token"=>"mvouJUKtBlNZXRhEuudX3FBJRy3yQZzqHV8pgXzw94k="}
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("updated_at", "avatar", "email", "created_at") VALUES('2010-07-09 10:26:24', 'abu.jpg', 'wangzongliang@glorisun.com', '2010-07-09 10:26:24')[0m
+Redirected to http://localhost:3000/users/1
+Completed in 1359ms (DB: 0) | 302 Found [http://localhost/users]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-07-09 18:26:25) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+Completed in 297ms (View: 250, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-07-09 18:26:32) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 125ms (View: 62, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-07-09 18:26:37) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (31.0ms)
+Completed in 234ms (View: 187, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-07-09 18:26:58) [POST]
+  Parameters: {"user"=>{"remote_avatar_url"=>"", "avatar"=>#<File:C:/DOCUME~1/YANGXI~1/LOCALS~1/Temp/RackMultipart.2400.1>, "avatar_cache"=>"", "email"=>"yangxiwen@glorisun.com"}, "commit"=>"Submit", "authenticity_token"=>"mvouJUKtBlNZXRhEuudX3FBJRy3yQZzqHV8pgXzw94k="}
+  [4;35;1mUser Create (0.0ms)[0m   [0mINSERT INTO "users" ("updated_at", "avatar", "email", "created_at") VALUES('2010-07-09 10:26:59', 'kernel.jpg', 'yangxiwen@glorisun.com', '2010-07-09 10:26:59')[0m
+Redirected to http://localhost:3000/users/2
+Completed in 453ms (DB: 0) | 302 Found [http://localhost/users]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-07-09 18:26:59) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering users/show
+Completed in 78ms (View: 31, DB: 0) | 200 OK [http://localhost/users/2]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-07-09 18:27:02) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 109ms (View: 62, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-07-09 18:27:12) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (16.0ms)
+Completed in 63ms (View: 16, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-07-09 18:27:25) [POST]
+  Parameters: {"user"=>{"remote_avatar_url"=>"", "avatar"=>#<File:C:/DOCUME~1/YANGXI~1/LOCALS~1/Temp/RackMultipart.2400.2>, "avatar_cache"=>"", "email"=>"yangxiwen@gmail.com"}, "commit"=>"Submit", "authenticity_token"=>"mvouJUKtBlNZXRhEuudX3FBJRy3yQZzqHV8pgXzw94k="}
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("updated_at", "avatar", "email", "created_at") VALUES('2010-07-09 10:27:25', '____.jpg', 'yangxiwen@gmail.com', '2010-07-09 10:27:25')[0m
+Redirected to http://localhost:3000/users/3
+Completed in 516ms (DB: 0) | 302 Found [http://localhost/users]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-07-09 18:27:26) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering users/show
+Completed in 157ms (View: 63, DB: 0) | 200 OK [http://localhost/users/3]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-07-09 18:27:28) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 265ms (View: 219, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-07-09 18:28:56) [GET]
+  Parameters: {"id"=>"3"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 3) [0m
+Rendering template within layouts/application
+Rendering users/show
+Completed in 78ms (View: 32, DB: 0) | 200 OK [http://localhost/users/3]
+
+
+Processing UsersController#destroy (for 127.0.0.1 at 2010-07-09 18:29:00) [DELETE]
+  Parameters: {"authenticity_token"=>"mvouJUKtBlNZXRhEuudX3FBJRy3yQZzqHV8pgXzw94k=", "id"=>"3"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 3) [0m
+  [4;35;1mUser Destroy (0.0ms)[0m   [0mDELETE FROM "users" WHERE "id" = 3[0m
+Redirected to http://localhost:3000/users
+Completed in 172ms (DB: 0) | 302 Found [http://localhost/users/3]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-07-09 18:29:00) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 125ms (View: 47, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-07-09 18:29:04) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (31.0ms)
+Completed in 78ms (View: 31, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-07-09 18:29:06) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 125ms (View: 63, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2010-07-09 18:29:07) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering users/edit
+Rendered users/_form (62.0ms)
+Completed in 140ms (View: 78, DB: 0) | 200 OK [http://localhost/users/2/edit]
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-07-09 18:29:21) [PUT]
+  Parameters: {"user"=>{"remove_avatar"=>"0", "remote_avatar_url"=>"", "avatar"=>#<File:C:/DOCUME~1/YANGXI~1/LOCALS~1/Temp/RackMultipart.2400.1>, "avatar_cache"=>"", "email"=>"yangxiwen@glorisun.com"}, "commit"=>"Submit", "authenticity_token"=>"mvouJUKtBlNZXRhEuudX3FBJRy3yQZzqHV8pgXzw94k=", "id"=>"2"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+  [4;36;1mUser Update (0.0ms)[0m   [0;1mUPDATE "users" SET "avatar" = '____.jpg', "updated_at" = '2010-07-09 10:29:22' WHERE "id" = 2[0m
+Redirected to http://localhost:3000/users/2
+Completed in 1281ms (DB: 0) | 302 Found [http://localhost/users/2]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-07-09 18:29:22) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering users/show
+Completed in 94ms (View: 32, DB: 0) | 200 OK [http://localhost/users/2]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-07-09 18:29:24) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 109ms (View: 63, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-07-09 18:30:53) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (16.0ms)
+Completed in 78ms (View: 31, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-07-09 18:31:04) [POST]
+  Parameters: {"user"=>{"remote_avatar_url"=>"", "avatar"=>#<File:C:/DOCUME~1/YANGXI~1/LOCALS~1/Temp/RackMultipart.2400.2>, "avatar_cache"=>"", "email"=>"wuweize@glorisun.com"}, "commit"=>"Submit", "authenticity_token"=>"mvouJUKtBlNZXRhEuudX3FBJRy3yQZzqHV8pgXzw94k="}
+  [4;35;1mUser Create (0.0ms)[0m   [0mINSERT INTO "users" ("updated_at", "avatar", "email", "created_at") VALUES('2010-07-09 10:31:04', 'dbcc.jpg', 'wuweize@glorisun.com', '2010-07-09 10:31:04')[0m
+Redirected to http://localhost:3000/users/4
+Completed in 422ms (DB: 0) | 302 Found [http://localhost/users]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-07-09 18:31:04) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering users/show
+Completed in 78ms (View: 31, DB: 0) | 200 OK [http://localhost/users/4]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-07-09 18:31:06) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 125ms (View: 78, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2010-07-09 18:31:09) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering users/edit
+Rendered users/_form (79.0ms)
+Completed in 204ms (View: 79, DB: 0) | 200 OK [http://localhost/users/4/edit]
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-07-09 18:31:19) [PUT]
+  Parameters: {"user"=>{"remove_avatar"=>"1", "remote_avatar_url"=>"", "avatar"=>#<File:C:/DOCUME~1/YANGXI~1/LOCALS~1/Temp/RackMultipart.2400.3>, "avatar_cache"=>"", "email"=>"wuweize@glorisun.com"}, "commit"=>"Submit", "authenticity_token"=>"mvouJUKtBlNZXRhEuudX3FBJRy3yQZzqHV8pgXzw94k=", "id"=>"4"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 4) [0m
+  [4;36;1mUser Update (0.0ms)[0m   [0;1mUPDATE "users" SET "avatar" = '', "updated_at" = '2010-07-09 10:31:19' WHERE "id" = 4[0m
+Redirected to http://localhost:3000/users/4
+Completed in 422ms (DB: 0) | 302 Found [http://localhost/users/4]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-07-09 18:31:19) [GET]
+  Parameters: {"id"=>"4"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering users/show
+
+ActionView::TemplateError (uninitialized constant AvatarUploader::Gravatar) on line #9 of app/views/users/show.html.erb:
+6: </p>
+7: <p>
+8:   <strong>Avatar:</strong>
+9:   <%= image_tag(@user.avatar_url(:with_mirror)) if @user.avatar_url %>
+10: </p>
+11: 
+12: <p>
+
+    app/uploaders/avatar_uploader.rb:14:in `default_url'
+    carrierwave (0.4.5) lib/carrierwave/uploader/default_url.rb:8:in `url'
+    carrierwave (0.4.5) lib/carrierwave/mount.rb:331:in `url'
+    carrierwave (0.4.5) lib/carrierwave/mount.rb:180:in `avatar_url'
+    app/views/users/show.html.erb:9
+    app/controllers/users_controller.rb:18:in `show'
+    C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:76:in `pre_process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:74:in `catch'
+    C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:74:in `pre_process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:57:in `process'
+    C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/connection.rb:42:in `receive_data'
+    C:/Ruby/lib/ruby/gems/1.8/gems/eventmachine-0.12.10-x86-mswin32-60/lib/eventmachine.rb:256:in `run_machine'
+    C:/Ruby/lib/ruby/gems/1.8/gems/eventmachine-0.12.10-x86-mswin32-60/lib/eventmachine.rb:256:in `run'
+    C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/backends/base.rb:57:in `start'
+    C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/server.rb:156:in `start'
+    C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/controllers/controller.rb:80:in `start'
+    C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:177:in `send'
+    C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:177:in `run_command'
+    C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/lib/thin/runner.rb:143:in `run!'
+    C:/Ruby/lib/ruby/gems/1.8/gems/thin-1.2.7-x86-mswin32/bin/thin:6
+    C:/Ruby/bin/thin:19:in `load'
+    C:/Ruby/bin/thin:19
+
+Rendered rescues/_trace (187.0ms)
+Rendered rescues/_request_and_response (16.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-07-09 18:31:40) [PUT]
+  Parameters: {"user"=>{"remove_avatar"=>"0", "remote_avatar_url"=>"", "avatar"=>#<File:C:/DOCUME~1/YANGXI~1/LOCALS~1/Temp/RackMultipart.2400.1>, "avatar_cache"=>"", "email"=>"wuweize@glorisun.com"}, "commit"=>"Submit", "authenticity_token"=>"mvouJUKtBlNZXRhEuudX3FBJRy3yQZzqHV8pgXzw94k=", "id"=>"4"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 4) [0m
+  [4;35;1mUser Update (0.0ms)[0m   [0mUPDATE "users" SET "avatar" = 'idd.jpg', "updated_at" = '2010-07-09 10:31:41' WHERE "id" = 4[0m
+Redirected to http://localhost:3000/users/4
+Completed in 500ms (DB: 0) | 302 Found [http://localhost/users/4]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-07-09 18:31:41) [GET]
+  Parameters: {"id"=>"4"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 4) [0m
+Rendering template within layouts/application
+Rendering users/show
+Completed in 78ms (View: 31, DB: 0) | 200 OK [http://localhost/users/4]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-07-09 18:31:44) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 125ms (View: 94, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-07-09 18:35:45) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 891ms (View: 266, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2010-07-09 18:35:50) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering users/edit
+Rendered users/_form (31.0ms)
+Completed in 250ms (View: 140, DB: 0) | 200 OK [http://localhost/users/2/edit]
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-07-09 18:35:59) [PUT]
+  Parameters: {"user"=>{"remove_avatar"=>"1", "remote_avatar_url"=>"", "avatar"=>#<File:C:/DOCUME~1/YANGXI~1/LOCALS~1/Temp/RackMultipart.1028.0>, "avatar_cache"=>"", "email"=>"yangxiwen@glorisun.com"}, "commit"=>"Submit", "authenticity_token"=>"mvouJUKtBlNZXRhEuudX3FBJRy3yQZzqHV8pgXzw94k=", "id"=>"2"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+  [4;35;1mUser Update (0.0ms)[0m   [0mUPDATE "users" SET "avatar" = '', "updated_at" = '2010-07-09 10:36:00' WHERE "id" = 2[0m
+Redirected to http://localhost:3000/users/2
+Completed in 375ms (DB: 0) | 302 Found [http://localhost/users/2]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-07-09 18:36:00) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering users/show
+Completed in 219ms (View: 63, DB: 0) | 200 OK [http://localhost/users/2]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-07-09 18:36:06) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 141ms (View: 94, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2010-07-09 18:36:53) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered users/_form (16.0ms)
+Completed in 79ms (View: 32, DB: 0) | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2010-07-09 18:37:06) [POST]
+  Parameters: {"user"=>{"remote_avatar_url"=>"", "avatar"=>#<File:C:/DOCUME~1/YANGXI~1/LOCALS~1/Temp/RackMultipart.1028.1>, "avatar_cache"=>"", "email"=>"yangxiwen@glorisun.com"}, "commit"=>"Submit", "authenticity_token"=>"mvouJUKtBlNZXRhEuudX3FBJRy3yQZzqHV8pgXzw94k="}
+  [4;36;1mUser Create (0.0ms)[0m   [0;1mINSERT INTO "users" ("updated_at", "avatar", "email", "created_at") VALUES('2010-07-09 10:37:06', 'bug.jpg', 'yangxiwen@glorisun.com', '2010-07-09 10:37:06')[0m
+Redirected to http://localhost:3000/users/5
+Completed in 469ms (DB: 0) | 302 Found [http://localhost/users]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-07-09 18:37:06) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 5) [0m
+Rendering template within layouts/application
+Rendering users/show
+Completed in 94ms (View: 47, DB: 0) | 200 OK [http://localhost/users/5]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-07-09 18:37:08) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 281ms (View: 141, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-07-09 18:37:11) [GET]
+  Parameters: {"id"=>"5"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 5) [0m
+Rendering template within layouts/application
+Rendering users/show
+Completed in 109ms (View: 31, DB: 0) | 200 OK [http://localhost/users/5]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-07-09 18:37:13) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 156ms (View: 109, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2010-07-09 18:37:16) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering users/edit
+Rendered users/_form (31.0ms)
+Completed in 78ms (View: 31, DB: 0) | 200 OK [http://localhost/users/2/edit]
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-07-09 18:38:27) [PUT]
+  Parameters: {"user"=>{"remove_avatar"=>"0", "remote_avatar_url"=>"", "avatar"=>#<File:C:/DOCUME~1/YANGXI~1/LOCALS~1/Temp/RackMultipart.1028.0>, "avatar_cache"=>"", "email"=>"yangxiwen@glorisun.com"}, "commit"=>"Submit", "authenticity_token"=>"mvouJUKtBlNZXRhEuudX3FBJRy3yQZzqHV8pgXzw94k=", "id"=>"2"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+  [4;35;1mUser Update (0.0ms)[0m   [0mUPDATE "users" SET "avatar" = '____.jpg', "updated_at" = '2010-07-09 10:38:28' WHERE "id" = 2[0m
+Redirected to http://localhost:3000/users/2
+Completed in 1015ms (DB: 0) | 302 Found [http://localhost/users/2]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-07-09 18:38:28) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering users/show
+Completed in 78ms (View: 31, DB: 0) | 200 OK [http://localhost/users/2]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-07-09 18:38:30) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 157ms (View: 110, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2010-07-09 18:38:35) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering users/edit
+Rendered users/_form (78.0ms)
+Completed in 171ms (View: 109, DB: 0) | 200 OK [http://localhost/users/2/edit]
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-07-09 18:38:38) [PUT]
+  Parameters: {"user"=>{"remove_avatar"=>"1", "remote_avatar_url"=>"", "avatar_cache"=>"", "email"=>"yangxiwen@glorisun.com"}, "commit"=>"Submit", "authenticity_token"=>"mvouJUKtBlNZXRhEuudX3FBJRy3yQZzqHV8pgXzw94k=", "id"=>"2"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+  [4;36;1mUser Update (0.0ms)[0m   [0;1mUPDATE "users" SET "avatar" = '', "updated_at" = '2010-07-09 10:38:39' WHERE "id" = 2[0m
+Redirected to http://localhost:3000/users/2
+Completed in 438ms (DB: 0) | 302 Found [http://localhost/users/2]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-07-09 18:38:39) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering users/show
+Completed in 94ms (View: 47, DB: 0) | 200 OK [http://localhost/users/2]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-07-09 18:38:41) [GET]
+  [4;36;1mUser Load (16.0ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 172ms (View: 109, DB: 16) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-07-09 18:38:44) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering users/show
+Completed in 94ms (View: 47, DB: 0) | 200 OK [http://localhost/users/2]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2010-07-09 18:38:46) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering users/edit
+Rendered users/_form (31.0ms)
+Completed in 78ms (View: 31, DB: 0) | 200 OK [http://localhost/users/2/edit]
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-07-09 18:38:54) [PUT]
+  Parameters: {"user"=>{"remove_avatar"=>"0", "remote_avatar_url"=>"", "avatar"=>#<File:C:/DOCUME~1/YANGXI~1/LOCALS~1/Temp/RackMultipart.1028.0>, "avatar_cache"=>"", "email"=>"yangxiwen@glorisun.com"}, "commit"=>"Submit", "authenticity_token"=>"mvouJUKtBlNZXRhEuudX3FBJRy3yQZzqHV8pgXzw94k=", "id"=>"2"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+  [4;36;1mUser Update (0.0ms)[0m   [0;1mUPDATE "users" SET "avatar" = '__.jpg', "updated_at" = '2010-07-09 10:38:54' WHERE "id" = 2[0m
+Redirected to http://localhost:3000/users/2
+Completed in 438ms (DB: 0) | 302 Found [http://localhost/users/2]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-07-09 18:38:55) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering users/show
+Completed in 94ms (View: 47, DB: 0) | 200 OK [http://localhost/users/2]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-07-09 18:38:56) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 219ms (View: 172, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2010-07-09 18:40:08) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering users/edit
+Rendered users/_form (47.0ms)
+Completed in 94ms (View: 47, DB: 0) | 200 OK [http://localhost/users/2/edit]
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-07-09 18:40:18) [PUT]
+  Parameters: {"user"=>{"remove_avatar"=>"1", "remote_avatar_url"=>"", "avatar"=>#<File:C:/DOCUME~1/YANGXI~1/LOCALS~1/Temp/RackMultipart.1028.1>, "avatar_cache"=>"", "email"=>"yangxiwen@glorisun.com"}, "commit"=>"Submit", "authenticity_token"=>"mvouJUKtBlNZXRhEuudX3FBJRy3yQZzqHV8pgXzw94k=", "id"=>"2"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+  [4;35;1mUser Update (0.0ms)[0m   [0mUPDATE "users" SET "avatar" = '', "updated_at" = '2010-07-09 10:40:19' WHERE "id" = 2[0m
+Redirected to http://localhost:3000/users/2
+Completed in 500ms (DB: 0) | 302 Found [http://localhost/users/2]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-07-09 18:40:19) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering users/show
+Completed in 78ms (View: 31, DB: 0) | 200 OK [http://localhost/users/2]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2010-07-09 18:40:21) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering users/edit
+Rendered users/_form (15.0ms)
+Completed in 78ms (View: 31, DB: 0) | 200 OK [http://localhost/users/2/edit]
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-07-09 18:40:27) [PUT]
+  Parameters: {"user"=>{"remove_avatar"=>"1", "remote_avatar_url"=>"", "avatar"=>#<File:C:/DOCUME~1/YANGXI~1/LOCALS~1/Temp/RackMultipart.1028.2>, "avatar_cache"=>"", "email"=>"yangxiwen@glorisun.com"}, "commit"=>"Submit", "authenticity_token"=>"mvouJUKtBlNZXRhEuudX3FBJRy3yQZzqHV8pgXzw94k=", "id"=>"2"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+Redirected to http://localhost:3000/users/2
+Completed in 297ms (DB: 0) | 302 Found [http://localhost/users/2]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-07-09 18:40:27) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering users/show
+Completed in 94ms (View: 31, DB: 0) | 200 OK [http://localhost/users/2]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2010-07-09 18:40:29) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering users/edit
+Rendered users/_form (31.0ms)
+Completed in 93ms (View: 31, DB: 0) | 200 OK [http://localhost/users/2/edit]
+
+
+Processing UsersController#update (for 127.0.0.1 at 2010-07-09 18:40:36) [PUT]
+  Parameters: {"user"=>{"remove_avatar"=>"0", "remote_avatar_url"=>"", "avatar"=>#<File:C:/DOCUME~1/YANGXI~1/LOCALS~1/Temp/RackMultipart.1028.3>, "avatar_cache"=>"", "email"=>"yangxiwen@glorisun.com"}, "commit"=>"Submit", "authenticity_token"=>"mvouJUKtBlNZXRhEuudX3FBJRy3yQZzqHV8pgXzw94k=", "id"=>"2"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+  [4;36;1mUser Update (0.0ms)[0m   [0;1mUPDATE "users" SET "avatar" = 'dgl.jpg', "updated_at" = '2010-07-09 10:40:37' WHERE "id" = 2[0m
+Redirected to http://localhost:3000/users/2
+Completed in 594ms (DB: 0) | 302 Found [http://localhost/users/2]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-07-09 18:40:37) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering users/show
+Completed in 94ms (View: 31, DB: 0) | 200 OK [http://localhost/users/2]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-07-09 18:40:39) [GET]
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 156ms (View: 110, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2010-07-09 18:41:56) [GET]
+  Parameters: {"id"=>"2"}
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering users/edit
+Rendered users/_form (47.0ms)
+Completed in 218ms (View: 171, DB: 0) | 200 OK [http://localhost/users/2/edit]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-07-09 18:46:26) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering users/show
+Completed in 94ms (View: 47, DB: 0) | 200 OK [http://localhost/users/2]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-07-09 18:46:29) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 156ms (View: 109, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-07-09 18:47:12) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 1) [0m
+Rendering template within layouts/application
+Rendering users/show
+Completed in 188ms (View: 47, DB: 0) | 200 OK [http://localhost/users/1]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-07-09 18:47:15) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 328ms (View: 266, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2010-07-09 18:47:17) [GET]
+  Parameters: {"id"=>"2"}
+  [4;36;1mUser Load (0.0ms)[0m   [0;1mSELECT * FROM "users" WHERE ("users"."id" = 2) [0m
+Rendering template within layouts/application
+Rendering users/show
+Completed in 78ms (View: 31, DB: 0) | 200 OK [http://localhost/users/2]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-07-09 18:47:19) [GET]
+  [4;35;1mUser Load (0.0ms)[0m   [0mSELECT * FROM "users" [0m
+Rendering template within layouts/application
+Rendering users/index
+Completed in 156ms (View: 109, DB: 0) | 200 OK [http://localhost/users]
